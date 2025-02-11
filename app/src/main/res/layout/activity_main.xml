@@ -4,20 +4,21 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/txt.1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HEllo onCreate call"
-        android:textSize="73sp"
-        />
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello"
+        android:textSize="35sp" />
 
     <Button
         android:id="@+id/btn_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NextPage"
-        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt.1"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        />
+        android:layout_marginTop="20dp"
+        android:text="@string/next" />
 
 </RelativeLayout>
